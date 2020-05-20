@@ -1,0 +1,77 @@
+    1  sudo alternatives --set python /usr/bin/python3
+    2  init 0
+    3  exit
+    4  yum install update
+    5  su -
+    6  ansible --version
+    7  cd~
+    8  cd ~
+    9  cd backup
+   10  mkdir backup
+   11  ls
+   12  cd backup/
+   13  ls
+   14  vim hosts 
+   15  vim /etc/ansible/ansible.cfg 
+   16  sudo vim /etc/ansible/ansible.cfg 
+   17  su -
+   18  python --version
+   19  yum install python3
+   20  sudo yum install python3
+   21  su -
+   22  cd ~
+   23  ansible -version
+   24  ansible --version
+   25  yum install ansible
+   26  sudo yum install ansible
+   27  su -
+   28  cd ~
+   29  cd backup/
+   30  ansible -i hosts all -m win_ping
+   31  pip install pywinrm
+   32  sudo pip install pywinrm --user jenkins
+   33  su -
+   34  cd ~
+   35  cd backup/
+   36  ansible -i hosts all -m win_ping
+   37  ansible --version
+   38  sudo ansible -i hosts all -m win_ping
+   39  vim hosts 
+   40  sudo ansible -i hosts all -m win_ping
+   41  ansible -i hosts all -m win_ping
+   42  "msg": "The powershell shell family is incompatible with the sudo become plugin"
+   43  su -
+   44  ifconfig
+   45  su -
+   46  cd /root/
+   47  su -
+   48  ansible --version
+   49  cd backup/
+   50  ansible win -m win_ping
+   51  ansible -i hosts win -m win_ping
+   52  python --version
+   53  pip install "pywinrm>=0.3.0"
+   54  ansible -i hosts win -m win_ping
+   55  vim hosts 
+   56  ansible -i hosts win -m win_ping
+   57  su root
+   58  ansible -i hosts all -m win_ping
+   59  su -
+   60  su root
+   61  pwd
+   62  ls -lrt
+   63  find . -name jenkins.war
+   64  cd Desktop
+   65  ls -lrt
+   66  java -jar jenkins.war
+   67  cd 
+   68  pwd
+   69  cd .jenkins
+   70  ls -lrt
+   71  cd secrets
+   72  ls -lrt
+   73  su -
+   74  su -
+   75  history
+   76  cd /root/DevOps
+   77  history >> /root/DevOps/Day3/commands_hist_jenkins.txt
